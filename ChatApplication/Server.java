@@ -9,7 +9,7 @@ public class Server
         System.out.println("Server application is running");
         String s1,s2;
 
-        ServerSocket ss = new ServerSocket(1100);
+        ServerSocket ss = new ServerSocket(1101);
         Socket s = ss.accept();
 
         System.out.println("Connection Successful");      

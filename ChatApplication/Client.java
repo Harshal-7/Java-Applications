@@ -14,7 +14,7 @@ public class Client
         
         try
         {
-            s = new Socket("Localhost",1100);
+            s = new Socket("Localhost",1101);
 
 
             brK = new BufferedReader(new InputStreamReader(System.in));
